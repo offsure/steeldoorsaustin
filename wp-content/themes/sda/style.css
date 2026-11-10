@@ -1,0 +1,616 @@
+/**
+Theme Name: SDA
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sda
+Template: astra
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body { font-family: 'Outfit' !important; }
+.navbar-brand{ letter-spacing:.2px }
+.navbar.bg-transparent .nav-link, .navbar.bg-transparent .navbar-brand{ color:#fff }
+.navbar.scrolled{ background:rgba(0,0,0,.7) !important; backdrop-filter:saturate(180%) blur(8px); }
+.btn-white{
+  background: #fff;
+  color: #2e2e2e;
+}
+
+/* Hero */
+.hero-section{
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero-section a{ padding:.8rem 1.4rem; border-radius:.8rem; font-size: 16px; }
+
+/* Cards */
+.service-card .card-img-top{ height: auto; object-fit: cover }
+.service-card{ border:0; box-shadow: 0 4px 14px rgba(0,0,0,.08); }
+.service-card .card-body{ padding:.9rem }
+
+/* Projects */
+.project-filter .btn{ border-radius: 999px; }
+#projectGrid img{ transition: transform .3s ease; }
+#projectGrid img:hover{ transform: scale(1.03); }
+.projects .nav-link.active{
+  background: #E63946;
+  color: #fff;
+}
+.projects .nav-link{
+  background: #fff;
+  color: #000;
+}
+#faq .accordion-item{
+  padding-bottom: 15px;
+}
+#faq .accordion-button{
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+#faq .accordion-button:not(.collapsed){
+  background: #fff;
+}
+#faq .accordion-body{
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+#faq .accordion-button:after{
+  background-image: url(assets/img/collapse.svg);
+}
+#faq .accordion-button.collapsed:after{
+  background-image: url(assets/img/expand.svg);
+}
+.area_main {
+    position: relative;
+}
+.area_name {
+    position: absolute;
+    z-index: 99;
+    bottom: 10%;
+    left: 10%;
+}
+.area_name h3 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.area_img {
+    width: 100%;
+}
+#contact .card{
+  background: none !important;
+}
+#contact .form-control{
+  padding: 0.75rem;
+  margin-top: 5px;
+}
+#contact .form-control:focus{
+  border-color: #000 !important;
+  box-shadow: none !important;
+}
+#contact button{
+
+}
+/* Footer */
+footer{
+  background: #000;
+  color: #fff;
+}
+footer a{ color:inherit; opacity:.8 }
+footer a:hover{ opacity:1 }
+
+/* Utilities */
+.object-fit-cover{ object-fit: cover; }
+
+/* Responsive tweaks */
+@media (max-width: 991.98px){
+  .hero-section{ min-height: 70vh }
+}
+@media (max-width: 575.98px){
+  .display-5{ font-size: 2rem }
+}
+
+/*San Marcos */
+
+    /* Hero */
+    .hero {
+      color: white;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+
+/*service area */
+
+    /* Hero */
+    .hero {
+      color: white;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+    /* Services */
+    .service-box {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .service-box i {
+      font-size: 28px;
+      color: #e63946;
+      margin-bottom: 10px;
+    }
+    /* CTA Button */
+    .cta{
+      border-radius: 40px;
+      padding: 3rem;
+    }
+    .cta-btn {
+      background: #e63946;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .cta-btn:hover {
+      background: #c92d3d;
+      color: white;
+    }
+    
+    .why-us ul li{
+      font-size: 18px;
+      list-style-type: none;
+
+    }
+
+/* Products */
+.products-hero{
+  min-height: 40vh;
+  background: linear-gradient(135deg,#1a1a1a 0%, #333 100%);
+  padding-top: 90px;
+}
+.products-archive .product-filter .btn{ font-weight: 500; }
+.product-card{
+  border: 0;
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+  transition: transform .2s ease, box-shadow .2s ease;
+  overflow: hidden;
+}
+.product-card:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,.12);
+}
+.product-card .card-img-top{
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  width: 100%;
+}
+.product-card__placeholder{
+  aspect-ratio: 4/3;
+  background: #e9ecef;
+  width: 100%;
+}
+.product-card .card-body{ padding: 1rem; }
+/* Product hero */
+.product-hero{
+  background: linear-gradient(135deg,#1a1a1a 0%, #2d2d2d 100%);
+  padding: 150px 0 50px;
+  position: relative;
+}
+.product-hero::after{
+  content: '';
+  position: absolute; left: 0; right: 0; bottom: 0;
+  height: 1px; background: rgba(255,255,255,.08);
+}
+.product-hero__eyebrow{
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: .75rem;
+  color: #e63946;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.product-hero__title{
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 700;
+  letter-spacing: -.015em;
+  line-height: 1.15;
+}
+.product-hero__subtitle{
+  font-size: 1.05rem;
+  color: rgba(255,255,255,.8);
+  max-width: 720px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.product-hero__breadcrumb .breadcrumb{
+  background: transparent;
+  padding: 0;
+}
+.product-hero__breadcrumb .breadcrumb-item a{
+  color: rgba(255,255,255,.7);
+  text-decoration: none;
+}
+.product-hero__breadcrumb .breadcrumb-item a:hover{ color: #fff; }
+.product-hero__breadcrumb .breadcrumb-item.active{ color: rgba(255,255,255,.95); }
+.product-hero__breadcrumb .breadcrumb-item + .breadcrumb-item::before{
+  color: rgba(255,255,255,.4);
+}
+
+/* Product detail */
+.product-detail .product-main-image{
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  border-radius: .75rem;
+  background: #f1f3f5;
+  box-shadow: 0 6px 24px rgba(0,0,0,.08);
+}
+.product-detail .product-main-image img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.product-detail .product-body{ line-height: 1.75; color: #333; font-size: .975rem; }
+.product-detail .product-body > *:first-child{ margin-top: 0; }
+.product-detail .product-body h2{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.75rem 0 .6rem;
+  color: #111;
+  letter-spacing: -.01em;
+  position: relative;
+  padding-bottom: .4rem;
+  border-bottom: 1px solid #e9ecef;
+}
+.product-detail .product-body h3{
+  font-size: 1.02rem;
+  font-weight: 600;
+  margin: 1.25rem 0 .4rem;
+  color: #111;
+}
+.product-detail .product-body p{ margin-bottom: 1rem; }
+.product-detail .product-body ul{ padding-left: 1.15rem; margin-bottom: 1rem; }
+.product-detail .product-body ul li{ margin-bottom: .35rem; }
+.product-detail .product-body ul li::marker{ color: #e63946; }
+.product-detail .product-body strong{ color: #111; font-weight: 600; }
+
+/* Section heading pattern */
+.product-section-heading{
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: #e63946;
+  margin-bottom: 1rem;
+}
+
+/* Specs table */
+.product-detail .product-specs{
+  background: #fff;
+  border-radius: .5rem;
+  overflow: hidden;
+  border: 1px solid #e9ecef;
+  margin-bottom: 0;
+}
+.product-detail .product-specs th,
+.product-detail .product-specs td{
+  padding: .75rem 1rem;
+  border-bottom: 1px solid #e9ecef;
+  font-size: .9rem;
+  vertical-align: top;
+  line-height: 1.5;
+}
+.product-detail .product-specs tr:last-child th,
+.product-detail .product-specs tr:last-child td{ border-bottom: none; }
+.product-detail .product-specs th{
+  color: #6c757d;
+  font-weight: 500;
+  background: #f8f9fa;
+}
+.product-detail .product-specs td{ color: #222; font-weight: 500; }
+
+/* CTA */
+.product-detail .product-cta .btn{
+  padding: .9rem 2rem;
+  font-weight: 600;
+  letter-spacing: .01em;
+  box-shadow: 0 4px 12px rgba(230,57,70,.25);
+}
+@media (min-width: 576px){
+  .product-detail .product-cta .btn.w-sm-auto{ width: auto !important; }
+}
+
+/* Section eyebrow (related products etc.) */
+.section-eyebrow{
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: .75rem;
+  color: #e63946;
+  font-weight: 600;
+}
+
+/* Related products section */
+.related-products .product-card{ background: #fff; }
+.related-products .product-card .card-body h3{
+  font-size: .95rem;
+  font-weight: 500;
+}
+
+/* Service Areas - Homepage cards */
+.home-area-card{
+  display: block;
+  position: relative;
+  border-radius: .75rem;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.home-area-card:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(0,0,0,.15);
+}
+.home-area-card__media{
+  position: relative;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  background: #2d2d2d;
+}
+.home-area-card__media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .4s ease;
+}
+.home-area-card:hover .home-area-card__media img{
+  transform: scale(1.05);
+}
+.home-area-card__placeholder{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg,#333 0%, #555 100%);
+}
+.home-area-card__overlay{
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,0) 55%);
+}
+.home-area-card__label{
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: .85rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+}
+.home-area-card__name{
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: -.01em;
+}
+.home-area-card__arrow{
+  font-size: 1.1rem;
+  opacity: .8;
+  transition: transform .25s ease, opacity .25s ease;
+}
+.home-area-card:hover .home-area-card__arrow{
+  transform: translateX(4px);
+  opacity: 1;
+}
+
+/* Service Area - Archive cards */
+.service-area-hero{
+  background: linear-gradient(135deg,#1a1a1a 0%, #2d2d2d 100%);
+  padding: 150px 0 60px;
+  position: relative;
+}
+.service-area-hero::after{
+  content: '';
+  position: absolute; left: 0; right: 0; bottom: 0;
+  height: 1px;
+  background: rgba(255,255,255,.08);
+}
+.area-card{ display: block; }
+.area-card__media{
+  position: relative;
+  aspect-ratio: 16/10;
+  overflow: hidden;
+  border-radius: .75rem;
+  background: #2d2d2d;
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.area-card:hover .area-card__media{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(0,0,0,.15);
+}
+.area-card__media img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .4s ease;
+}
+.area-card:hover .area-card__media img{ transform: scale(1.05); }
+.area-card__placeholder{
+  width: 100%; height: 100%;
+  background: linear-gradient(135deg,#333 0%, #555 100%);
+}
+.area-card__overlay{
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,.7) 0%, rgba(0,0,0,0) 55%);
+}
+.area-card__label{
+  position: absolute;
+  left: 1.25rem; right: 1.25rem; bottom: 1rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.area-card__arrow{
+  font-size: 1.25rem;
+  opacity: .85;
+  transition: transform .25s ease;
+}
+.area-card:hover .area-card__arrow{ transform: translateX(4px); }
+.area-card__tagline{
+  color: #555;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+
+/* Service area - Single page */
+.service-area-detail .service-area-zips{
+  background: #f8f9fa;
+  border-left: 3px solid #e63946;
+  padding: 1rem 1.25rem;
+  border-radius: 0 .5rem .5rem 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  font-size: .85rem;
+}
+.service-area-sidebar{
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: .75rem;
+  position: sticky;
+  top: 100px;
+}
+.service-area-products li:last-child{ border-bottom: 0 !important; }
+.service-area-products a:hover{ color: #e63946 !important; }
+
+/* Neighborhood cards */
+.nbh-card{
+  display: block;
+  height: 100%;
+}
+.nbh-card__inner{
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: .75rem;
+  padding: 1.25rem 1.35rem;
+  height: 100%;
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+.nbh-card:hover .nbh-card__inner{
+  border-color: #e63946;
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  transform: translateY(-2px);
+}
+.nbh-card__title-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+  margin-bottom: .4rem;
+}
+.nbh-card__title{
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #111;
+  letter-spacing: -.01em;
+}
+.nbh-card__arrow{
+  font-size: 1rem;
+  color: #e63946;
+  opacity: .7;
+  transition: transform .2s ease, opacity .2s ease;
+}
+.nbh-card:hover .nbh-card__arrow{
+  transform: translateX(3px);
+  opacity: 1;
+}
+.nbh-card__tagline{
+  font-size: .85rem;
+  color: #6c757d;
+  line-height: 1.5;
+}
+
+/* Neighborhood parent callout on single page */
+.nbh-parent-callout{
+  background: #f8f9fa;
+  border-left: 3px solid #e63946;
+  padding: 1.25rem 1.5rem;
+  border-radius: 0 .5rem .5rem 0;
+}
+.nbh-parent-callout p:last-of-type{ margin-bottom: 0; }
+
+/* Archive grouping */
+.neighborhood-archive .nbh-city-group h2 a:hover{ color: #e63946; }
+
+/* Related areas chips */
+.related-area-chip{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+  padding: .75rem 1rem;
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: .5rem;
+  color: #222;
+  text-decoration: none;
+  font-size: .9rem;
+  font-weight: 500;
+  transition: all .2s ease;
+}
+.related-area-chip:hover{
+  border-color: #e63946;
+  color: #e63946;
+  transform: translateY(-2px);
+}
+.related-area-chip__arrow{ font-size: .85rem; opacity: .6; }
+.product-thumbs .product-thumb{
+  border: 2px solid transparent;
+  background: none;
+  padding: 0;
+  width: 80px;
+  height: 60px;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.product-thumbs .product-thumb.is-active{ border-color: #e63946; }
+.product-thumbs .product-thumb img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product-specs th{ color: #555; font-weight: 500; }
+.products-archive .page-numbers{
+  display: inline-block;
+  padding: .4rem .8rem;
+  margin: 0 .2rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #333;
+  text-decoration: none;
+}
+.products-archive .page-numbers.current{
+  background: #e63946;
+  color: #fff;
+  border-color: #e63946;
+}

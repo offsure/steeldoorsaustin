@@ -1,0 +1,221 @@
+0000.063 (R) [notice] Looking for db archive: file name: backup_2026-11-10-0832_Steel_Doors_Austin_bdd0983de0a7-db.gz
+0000.064 (R) [notice] Archive is expected to be size: 168.2 KB: OK
+0000.069 (R) [notice] Looking for plugins archive: file name: backup_2026-11-10-0832_Steel_Doors_Austin_bdd0983de0a7-plugins.zip
+0000.071 (R) [notice] Archive is expected to be size: 25682.7 KB: OK
+0000.071 (R) [notice] Looking for plugins archive: file name: backup_2026-11-10-0832_Steel_Doors_Austin_bdd0983de0a7-plugins2.zip
+0000.072 (R) [notice] Archive is expected to be size: 6895 KB: OK
+0000.075 (R) [notice] Looking for themes archive: file name: backup_2026-11-10-0832_Steel_Doors_Austin_bdd0983de0a7-themes.zip
+0000.076 (R) [notice] Archive is expected to be size: 19979 KB: OK
+0000.079 (R) [notice] Looking for uploads archive: file name: backup_2026-11-10-0832_Steel_Doors_Austin_bdd0983de0a7-uploads.zip
+0000.080 (R) [notice] Archive is expected to be size: 9503.5 KB: OK
+0000.083 (R) [notice] Looking for others archive: file name: backup_2026-11-10-0832_Steel_Doors_Austin_bdd0983de0a7-others.zip
+0000.084 (R) [notice] Archive is expected to be size: 0.6 KB: OK
+0000.088 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.100 (R) [notice] Unpacking backup... (backup_2026-11-10-0832_Steel_Doors_Austin_bdd0983de0a7-db.gz, 0.2 Mb)
+0000.106 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.235 (R) [notice] Enabling Maintenance mode&#8230;
+0000.270 (R) [notice] Backup of: https://steeldoorsaustin.com
+0000.300 (R) [notice] Content URL: https://steeldoorsaustin.com/wp-content
+0000.300 (R) [notice] Uploads URL: https://steeldoorsaustin.com/wp-content/uploads
+0000.301 (R) [notice] Old table prefix: wp_
+0000.301 (R) [notice] Old ABSPATH: /var/www/sdaustin/sdaustin/
+0000.301 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.302 (R) [notice] Site information: multisite = 0
+0000.302 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.306 (R) [notice] New table prefix: x6_
+0000.314 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: x6_options
+0000.560 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.566 (R) [notice] Atomic restore: renaming new table (x6_options) to final table name (wp_options)
+0001.077 (R) [notice] Search and replacing table: wp_options: rows: 368
+0001.149 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: x6_users
+0001.190 (R) [notice] Atomic restore: dropping original table (wp_users)
+0001.196 (R) [notice] Atomic restore: renaming new table (x6_users) to final table name (wp_users)
+0001.211 (R) [notice] Search and replacing table: wp_users: rows: 1
+0001.213 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: x6_usermeta
+0001.254 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0001.260 (R) [notice] Atomic restore: renaming new table (x6_usermeta) to final table name (wp_usermeta)
+0001.276 (R) [notice] Search and replacing table: wp_usermeta: rows: 43
+0001.279 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_actions - will restore as: x6_actionscheduler_actions
+0001.378 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_actions)
+0001.379 (R) [notice] Atomic restore: renaming new table (x6_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0001.396 (R) [notice] Search and replacing table: wp_actionscheduler_actions: rows: 103
+0001.405 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_claims - will restore as: x6_actionscheduler_claims
+0001.444 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_claims)
+0001.444 (R) [notice] Atomic restore: renaming new table (x6_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0001.463 (R) [notice] Search and replacing table: wp_actionscheduler_claims: rows: 0
+0001.464 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_groups - will restore as: x6_actionscheduler_groups
+0001.502 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_groups)
+0001.503 (R) [notice] Atomic restore: renaming new table (x6_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0001.519 (R) [notice] Search and replacing table: wp_actionscheduler_groups: rows: 3
+0001.521 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_logs - will restore as: x6_actionscheduler_logs
+0001.588 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_logs)
+0001.588 (R) [notice] Atomic restore: renaming new table (x6_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0001.608 (R) [notice] Search and replacing table: wp_actionscheduler_logs: rows: 301
+0001.618 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: x6_commentmeta
+0001.647 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0001.654 (R) [notice] Atomic restore: renaming new table (x6_commentmeta) to final table name (wp_commentmeta)
+0001.673 (R) [notice] Search and replacing table: wp_commentmeta: rows: 0
+0001.673 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: x6_comments
+0001.742 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0001.758 (R) [notice] Atomic restore: renaming new table (x6_comments) to final table name (wp_comments)
+0001.777 (R) [notice] Search and replacing table: wp_comments: rows: 0
+0001.777 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: x6_links
+0001.815 (R) [notice] Atomic restore: dropping original table (wp_links)
+0001.821 (R) [notice] Atomic restore: renaming new table (x6_links) to final table name (wp_links)
+0001.838 (R) [notice] Search and replacing table: wp_links: rows: 0
+0001.838 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: x6_postmeta
+0002.121 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0002.127 (R) [notice] Atomic restore: renaming new table (x6_postmeta) to final table name (wp_postmeta)
+0002.161 (R) [notice] Search and replacing table: wp_postmeta: rows: 112
+0002.277 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: x6_posts
+0002.410 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0002.416 (R) [notice] Atomic restore: renaming new table (x6_posts) to final table name (wp_posts)
+0002.429 (R) [notice] Search and replacing table: wp_posts: rows: 382
+0002.450 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: x6_term_relationships
+0002.485 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0002.491 (R) [notice] Atomic restore: renaming new table (x6_term_relationships) to final table name (wp_term_relationships)
+0002.498 (R) [notice] Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0002.499 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: x6_term_taxonomy
+0002.539 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0002.546 (R) [notice] Atomic restore: renaming new table (x6_term_taxonomy) to final table name (wp_term_taxonomy)
+0002.560 (R) [notice] Search and replacing table: wp_term_taxonomy: rows: 28
+0002.561 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: x6_termmeta
+0002.591 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0002.597 (R) [notice] Atomic restore: renaming new table (x6_termmeta) to final table name (wp_termmeta)
+0002.610 (R) [notice] Search and replacing table: wp_termmeta: rows: 0
+0002.610 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: x6_terms
+0002.636 (R) [notice] Database queries processed: 50 in 2.52 seconds
+0002.637 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0002.643 (R) [notice] Atomic restore: renaming new table (x6_terms) to final table name (wp_terms)
+0002.670 (R) [notice] Search and replacing table: wp_terms: rows: 28
+0002.672 (R) [notice] Processing table (InnoDB):  wp_aioseo_cache - will restore as: x6_aioseo_cache
+0002.710 (R) [notice] Atomic restore: dropping original table (wp_aioseo_cache)
+0002.710 (R) [notice] Atomic restore: renaming new table (x6_aioseo_cache) to final table name (wp_aioseo_cache)
+0002.727 (R) [notice] Search and replacing table: wp_aioseo_cache: rows: 0
+0002.727 (R) [notice] Processing table (InnoDB):  wp_cf7_views_entries - will restore as: x6_cf7_views_entries
+0002.804 (R) [notice] Atomic restore: dropping original table (wp_cf7_views_entries)
+0002.805 (R) [notice] Atomic restore: renaming new table (x6_cf7_views_entries) to final table name (wp_cf7_views_entries)
+0002.837 (R) [notice] Search and replacing table: wp_cf7_views_entries: rows: 46
+0002.948 (R) [notice] Processing table (InnoDB):  wp_wpc_accesslocks - will restore as: x6_wpc_accesslocks
+0002.948 (R) [notice] Requested table collation (utf8mb4_0900_ai_ci) is not present - changing to utf8_general_ci.
+0002.949 (R) [notice] An error (1) occurred: - COLLATION 'utf8_general_ci' is not valid for CHARACTER SET 'utf8mb4' - the database query being run was: CREATE TABLE `x6_wpc_accesslocks` (  `accesslock_ID` bigint NOT NULL AUTO_INCREMENT,  `user_id` bigi ...
+0002.959 (R) [notice] Atomic restore: dropping original table (wp_wpc_accesslocks)
+0002.960 (R) [notice] Atomic restore: renaming new table (x6_wpc_accesslocks) to final table name (wp_wpc_accesslocks)
+0002.961 (R) [notice] An error (2) occurred: - Table 'steeldoorsaustin.x6_wpc_accesslocks' doesn't exist - the database query being run was: ALTER TABLE `x6_wpc_accesslocks` RENAME TO `wp_wpc_accesslocks`;
+0002.985 (R) [notice] Search and replacing table: wp_wpc_accesslocks: rows: 0
+0002.986 (R) [notice] Processing table (InnoDB):  wp_wpc_login_fails - will restore as: x6_wpc_login_fails
+0002.986 (R) [notice] Requested table collation (utf8mb4_0900_ai_ci) is not present - changing to utf8_general_ci.
+0002.987 (R) [notice] An error (3) occurred: - COLLATION 'utf8_general_ci' is not valid for CHARACTER SET 'utf8mb4' - the database query being run was: CREATE TABLE `x6_wpc_login_fails` (  `login_attempt_ID` bigint NOT NULL AUTO_INCREMENT,  `user_id` b ...
+0002.996 (R) [notice] Atomic restore: dropping original table (wp_wpc_login_fails)
+0002.997 (R) [notice] Atomic restore: renaming new table (x6_wpc_login_fails) to final table name (wp_wpc_login_fails)
+0002.998 (R) [notice] An error (4) occurred: - Table 'steeldoorsaustin.x6_wpc_login_fails' doesn't exist - the database query being run was: ALTER TABLE `x6_wpc_login_fails` RENAME TO `wp_wpc_login_fails`;
+0003.005 (R) [notice] Search and replacing table: wp_wpc_login_fails: rows: 0
+0003.006 (R) [notice] Processing table (InnoDB):  wp_wpfm_backup - will restore as: x6_wpfm_backup
+0003.023 (R) [notice] Atomic restore: dropping original table (wp_wpfm_backup)
+0003.023 (R) [notice] Atomic restore: renaming new table (x6_wpfm_backup) to final table name (wp_wpfm_backup)
+0003.039 (R) [notice] Search and replacing table: wp_wpfm_backup: rows: 0
+0003.039 (R) [notice] Processing table (InnoDB):  wp_wpmailsmtp_debug_events - will restore as: x6_wpmailsmtp_debug_events
+0003.058 (R) [notice] Atomic restore: dropping original table (wp_wpmailsmtp_debug_events)
+0003.058 (R) [notice] Atomic restore: renaming new table (x6_wpmailsmtp_debug_events) to final table name (wp_wpmailsmtp_debug_events)
+0003.073 (R) [notice] Search and replacing table: wp_wpmailsmtp_debug_events: rows: 2
+0003.077 (R) [notice] Processing table (InnoDB):  wp_wpmailsmtp_tasks_meta - will restore as: x6_wpmailsmtp_tasks_meta
+0003.095 (R) [notice] Atomic restore: dropping original table (wp_wpmailsmtp_tasks_meta)
+0003.096 (R) [notice] Atomic restore: renaming new table (x6_wpmailsmtp_tasks_meta) to final table name (wp_wpmailsmtp_tasks_meta)
+0003.108 (R) [notice] Search and replacing table: wp_wpmailsmtp_tasks_meta: rows: 1
+0003.109 (R) [notice] Processing table (InnoDB):  wp_yoast_expiring_store - will restore as: x6_yoast_expiring_store
+0003.109 (R) [notice] Requested character set (utf8mb3) is not present - changing to utf8.
+0003.147 (R) [notice] Atomic restore: dropping original table (wp_yoast_expiring_store)
+0003.148 (R) [notice] Atomic restore: renaming new table (x6_yoast_expiring_store) to final table name (wp_yoast_expiring_store)
+0003.160 (R) [notice] Search and replacing table: wp_yoast_expiring_store: rows: 0
+0003.161 (R) [notice] Processing table (InnoDB):  wp_yoast_indexable - will restore as: x6_yoast_indexable
+0003.264 (R) [notice] Atomic restore: dropping original table (wp_yoast_indexable)
+0003.265 (R) [notice] Atomic restore: renaming new table (x6_yoast_indexable) to final table name (wp_yoast_indexable)
+0003.284 (R) [notice] Search and replacing table: wp_yoast_indexable: rows: 151
+0003.574 (R) [notice] Processing table (InnoDB):  wp_yoast_indexable_hierarchy - will restore as: x6_yoast_indexable_hierarchy
+0003.618 (R) [notice] Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+0003.618 (R) [notice] Atomic restore: renaming new table (x6_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+0003.637 (R) [notice] Search and replacing table: wp_yoast_indexable_hierarchy: rows: 149
+0003.644 (R) [notice] Processing table (InnoDB):  wp_yoast_migrations - will restore as: x6_yoast_migrations
+0003.782 (R) [notice] Atomic restore: dropping original table (wp_yoast_migrations)
+0003.786 (R) [notice] Atomic restore: renaming new table (x6_yoast_migrations) to final table name (wp_yoast_migrations)
+0003.801 (R) [notice] Search and replacing table: wp_yoast_migrations: rows: 27
+0003.802 (R) [notice] Processing table (InnoDB):  wp_yoast_primary_term - will restore as: x6_yoast_primary_term
+0003.849 (R) [notice] Atomic restore: dropping original table (wp_yoast_primary_term)
+0003.850 (R) [notice] Atomic restore: renaming new table (x6_yoast_primary_term) to final table name (wp_yoast_primary_term)
+0003.951 (R) [notice] Search and replacing table: wp_yoast_primary_term: rows: 0
+0003.952 (R) [notice] Processing table (InnoDB):  wp_yoast_seo_links - will restore as: x6_yoast_seo_links
+0003.952 (R) [notice] Requested character set (utf8mb3) is not present - changing to utf8.
+0004.012 (R) [notice] Disabling Maintenance mode&#8230;
+0004.013 (R) [notice] Atomic restore: dropping original table (wp_yoast_seo_links)
+0004.014 (R) [notice] Atomic restore: renaming new table (x6_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0004.038 (R) [notice] Search and replacing table: wp_yoast_seo_links: rows: 0
+0004.039 (R) [notice] Finished: lines processed: 85 in 3.92 seconds
+0004.039 (R) [notice] Cleaning up rubbish...
+0004.043 (R) [notice] Database search and replace: replace https://steeldoorsaustin.com in backup dump with http://localhost/steeldoorsaustin
+0004.043 (R) [notice] Database search and replace: replace http://www.steeldoorsaustin.com in backup dump with http://localhost/steeldoorsaustin
+0004.044 (R) [notice] Database search and replace: replace http://steeldoorsaustin.com in backup dump with http://localhost/steeldoorsaustin
+0004.044 (R) [notice] Database search and replace: replace https://www.steeldoorsaustin.com in backup dump with http://localhost/steeldoorsaustin
+0004.044 (R) [notice] Database search and replace: replace /var/www/sdaustin/sdaustin in backup dump with C:\xampp\htdocs\steeldoorsaustin
+0004.045 (R) [notice] Search and replacing table: wp_actionscheduler_actions: already done
+0004.046 (R) [notice] Search and replacing table: wp_actionscheduler_claims: already done
+0004.046 (R) [notice] Search and replacing table: wp_actionscheduler_groups: already done
+0004.046 (R) [notice] Search and replacing table: wp_actionscheduler_logs: already done
+0004.046 (R) [notice] Search and replacing table: wp_aioseo_cache: already done
+0004.046 (R) [notice] Search and replacing table: wp_cf7_views_entries: already done
+0004.046 (R) [notice] Search and replacing table: wp_commentmeta: already done
+0004.047 (R) [notice] Search and replacing table: wp_comments: already done
+0004.047 (R) [notice] Search and replacing table: wp_links: already done
+0004.047 (R) [notice] Search and replacing table: wp_options: already done
+0004.047 (R) [notice] Search and replacing table: wp_postmeta: already done
+0004.047 (R) [notice] Search and replacing table: wp_posts: already done
+0004.048 (R) [notice] Search and replacing table: wp_term_relationships: already done
+0004.048 (R) [notice] Search and replacing table: wp_term_taxonomy: already done
+0004.048 (R) [notice] Search and replacing table: wp_termmeta: already done
+0004.048 (R) [notice] Search and replacing table: wp_terms: already done
+0004.048 (R) [notice] Search and replacing table: wp_usermeta: already done
+0004.048 (R) [notice] Search and replacing table: wp_users: already done
+0004.049 (R) [notice] Search and replacing table: wp_wpfm_backup: already done
+0004.049 (R) [notice] Search and replacing table: wp_wpmailsmtp_debug_events: already done
+0004.049 (R) [notice] Search and replacing table: wp_wpmailsmtp_tasks_meta: already done
+0004.049 (R) [notice] Search and replacing table: wp_yoast_expiring_store: already done
+0004.049 (R) [notice] Search and replacing table: wp_yoast_indexable: already done
+0004.049 (R) [notice] Search and replacing table: wp_yoast_indexable_hierarchy: already done
+0004.050 (R) [notice] Search and replacing table: wp_yoast_migrations: already done
+0004.050 (R) [notice] Search and replacing table: wp_yoast_primary_term: already done
+0004.050 (R) [notice] Search and replacing table: wp_yoast_seo_links: already done
+0004.050 (R) [notice] Tables examined: 28
+0004.050 (R) [notice] Rows examined: 1745
+0004.050 (R) [notice] Changes made: 338
+0004.051 (R) [notice] SQL update commands run: 272
+0004.051 (R) [notice] Errors: 0
+0004.051 (R) [notice] Time taken (seconds): 0.949
+0004.087 (R) [notice] Unpacking backup... (backup_2026-11-10-0832_Steel_Doors_Austin_bdd0983de0a7-plugins.zip, 25.1 MB)
+0005.215 (R) [notice] Unzip progress: 1271 out of 6887 files (128 B, plugins/contact-form-7/languages/readme.txt)
+0009.068 (R) [notice] Unzip progress: 2272 out of 6887 files (12 MB, plugins/wordpress-seo/css/dist/block-editor-2880-rtl.css)
+0014.559 (R) [notice] Unzip progress: 3273 out of 6887 files (22.8 MB, plugins/wordpress-seo/src/elementor/infrastructure/request-post.php)
+0020.446 (R) [notice] Unzip progress: 4274 out of 6887 files (41.6 MB, plugins/updraftplus/images/onedrive.png)
+0029.334 (R) [notice] Unzip progress: 5275 out of 6887 files (48 MB, plugins/updraftplus/vendor/phpseclib/phpseclib/phpseclib/Crypt/Common/Formats/Keys/PKCS8.php)
+0037.442 (R) [notice] Unzip progress: 6276 out of 6887 files (57.2 MB, plugins/wp-mail-smtp/vendor_prefixed/google/apiclient-services/src/Gmail/Profile.php)
+0042.065 (R) [notice] Unzip progress: 6887 out of 6887 files (68.3 MB, plugins/advanced-custom-fields/assets/images/field-type-previews/field-preview-clone.png)
+0042.072 (R) [notice] Moving old data out of the way...
+0043.560 (R) [notice] Moving unpacked backup into place...
+0047.863 (R) [notice] Cleaning up rubbish...
+0047.881 (R) [notice] Unpacking backup... (backup_2026-11-10-0832_Steel_Doors_Austin_bdd0983de0a7-plugins2.zip, 6.7 MB)
+0051.726 (R) [notice] Unzip progress: 533 out of 533 files (24.7 MB, plugins/svg-support/vendor/autoload.php)
+0051.727 (R) [notice] Moving unpacked backup into place...
+0053.650 (R) [notice] Cleaning up rubbish...
+0053.680 (R) [notice] Unpacking backup... (backup_2026-11-10-0832_Steel_Doors_Austin_bdd0983de0a7-themes.zip, 19.5 MB)
+0059.119 (R) [notice] Unzip progress: 1002 out of 1545 files (23.6 MB, themes/astra/inc/assets/css/wp-editor-styles-rtl.css)
+0063.584 (R) [notice] Unzip progress: 1545 out of 1545 files (35.7 MB, themes/sda/inc/seed-product-content.php)
+0063.589 (R) [notice] Moving old data out of the way...
+0063.901 (R) [notice] Moving unpacked backup into place...
+0064.995 (R) [notice] Cleaning up rubbish...
+0065.015 (R) [notice] Unpacking backup... (backup_2026-11-10-0832_Steel_Doors_Austin_bdd0983de0a7-uploads.zip, 9.3 MB)
+0065.776 (R) [notice] Unzip progress: 250 out of 250 files (9.3 MB, uploads/2026/04/gallery3-1024x896.webp)
+0065.891 (R) [notice] Unpacking backup... (backup_2026-11-10-0832_Steel_Doors_Austin_bdd0983de0a7-others.zip, 0 MB)
+0065.984 (R) [notice] Unzip progress: 5 out of 5 files (56 B, upgrade/index.php)
+0065.993 (R) [notice] Cleaning up rubbish...
+0065.994 (R) [notice] Error: Failed to delete working directory after restoring. (C:/xampp/htdocs/steeldoorsaustin/wp-content/upgrade/7e49fb3c)
+0065.996 (R) [notice] Files found:
+0065.997 (R) [notice] * upgrade
+0066.067 (R) [notice] Restore successful!

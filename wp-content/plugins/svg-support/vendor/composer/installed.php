@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'benbodhi/svg-support',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '07f84c40cf9f720a9fd102ed642583804f042174',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'benbodhi/svg-support' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '07f84c40cf9f720a9fd102ed642583804f042174',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'cure53/dompurify' => array(
+            'pretty_version' => '3.4.17',
+            'version' => '3.4.17.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../cure53/dompurify',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'enshrined/svg-sanitize' => array(
+            'pretty_version' => '1.1.1',
+            'version' => '1.1.1.0',
+            'reference' => '1976ff93c8d8a234cdd3ff99626bd43ecf11bf49',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../enshrined/svg-sanitize',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

@@ -1,0 +1,108 @@
+$sp-primary-color: #1A74E4;
+
+// Ready Patterns + Documentation pills, tucked under the block card description.
+.sp-easy-accordion-tabs-panel {
+    .sp-eab-tab-panel-header-actions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: -4px;
+        margin-bottom: 16px;
+
+        .sp-eab-header-action {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 32px;
+            padding: 0 11px;
+            margin: 0;
+            font-family: inherit;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1;
+            text-decoration: none;
+            white-space: nowrap;
+            cursor: pointer;
+            border: 1px solid;
+            border-radius: 4px;
+            box-shadow: none;
+            transition: background-color 0.2s ease, border-color 0.2s ease;
+
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+
+            &:focus-visible {
+                outline: 2px solid currentColor;
+                outline-offset: 1px;
+            }
+        }
+
+        // Easy Accordion brand orange — matches the Ready Patterns library.
+        .sp-eab-header-action-patterns {
+            color: #c9371a;
+            background: #fff1ec;
+            border-color: var(--eab-primary-color, #ff5b2e);
+
+            &:hover {
+                color: #b02f14;
+                background: #ffe4da;
+                border-color: var(--eab-primary-color, #ff5b2e);
+            }
+        }
+
+        .sp-eab-header-action-docs {
+            color: #1e5fbf;
+            background: #edf4fe;
+            border-color: #bcd4f6;
+
+            &:hover {
+                color: #1e5fbf;
+                background: #dfeafc;
+                border-color: #9dbff0;
+            }
+        }
+    }
+}
+
+.wp-admin[class*="version-7-"] {
+    .sp-eab-tab-panel-header-actions {
+        padding: 0 16px;
+    }
+}
+
+.sp-eab-block-preview-button {
+	color: #FFF;
+	font-size: 13px;
+	line-height: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	background: $sp-primary-color;
+	transition: all 0.4s ease-in-out;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+	padding: 15px 16px;
+
+	&:hover {
+		background: $sp-primary-color;
+	}
+
+	&:focus {
+		box-shadow: none;
+		outline: none;
+	}
+
+	&.eab-ready-patterns {
+		background-color: var(--eab-primary-color);
+
+		&:hover {
+			background-color: #f4552a;
+		}
+	}
+}
+
+div:has(>.sp-easy-accordion-tabs-panel)~div:has(>.block-editor-block-inspector__advanced) {
+	display: none;
+}
